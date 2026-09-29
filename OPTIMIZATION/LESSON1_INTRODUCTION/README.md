@@ -8,6 +8,7 @@
 1.  [Πράξεις Διανυσμάτων](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON1_INTRODUCTION/VectorOperations.tar.gz)
 2. [Πράξεις Πινάκων](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON1_INTRODUCTION/ArrayOperations.tar.gz)
 3. [Πρόγραμμα μετατροπής δεκαδικού σε δυαδικό ](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON1_INTRODUCTION/Dec2BinaryWithDecimal.tar.gz)
-4. [Αρχείο ασκήσεων κεφαλαίου ](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON1_INTRODUCTION/lecture1_introduction.pdf)
+4. [Αρχείο ασκήσεων κεφαλαίου ](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON1_INTRODUCTION/askiseis_enotita1.pdf)
+5. [Παρουσίαση μαθήματος ](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON1_INTRODUCTION/lecture1_introduction.pdf)
 
 
