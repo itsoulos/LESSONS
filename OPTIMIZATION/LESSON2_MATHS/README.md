@@ -14,4 +14,5 @@
 7. [Εύρεση ριζών με την μέθοδο Bolzano](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON2_MATHS/BolzanoRoot.zip) 
 8. [Εύρεση ριζών με την μέθοδο Newton](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON2_MATHS/NewtonRoot.zip) 
 9. [Ασκήσεις δευτέρου κεφαλαίου](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON2_MATHS/lecture2_askiseis.pdf)
-
+10. [Λυμένες προγραμματιστικές ασκήσεις](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON2_MATHS/Lessson2Prog.zip) 
+11. [Λυμένες παραδοτέες ασκήσεις](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON2_MATHS/AskiseisKef2.zip)
