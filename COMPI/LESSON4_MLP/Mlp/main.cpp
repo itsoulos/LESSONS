@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     {
         srand(iters);
         Neural mymlp;
-        mymlp.setTrainMethod("gd");
+        mymlp.setTrainMethod("siman");
         mymlp.setTrainSet(&train);
         mymlp.setTestSet(&test);
         mymlp.setNWeights(10);
