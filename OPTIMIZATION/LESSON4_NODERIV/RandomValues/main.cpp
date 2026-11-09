@@ -75,7 +75,7 @@ int main()
     printf("Mean1=%20.10lg Std1=%20.10lg\n",mean1,std1);
     getRandom2(nums,a,b,mean2,std2);
     printf("Mean2=%20.10lg Std2=%20.10lg\n",mean2,std2);
-    times = selectWithProbability(0.1,nums);
+    times = selectWithProbability(0.25,nums);
     printf("Selection rate =%10.2lf%%\n",times * 100.0/nums);
     return 0;
 }

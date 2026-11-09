@@ -57,7 +57,7 @@ void    GradientDescent::Solve()
         updatePoint();
         k=k+1;
         if(myProblem->grms(xpoint)<1e-3) break;
-        printf("Iteration=%4d Value=%20.10lg\n",k,ypoint);
+       // printf("Iteration=%4d Value=%20.10lg\n",k,ypoint);
     }
 }
 GradientDescent::~GradientDescent()

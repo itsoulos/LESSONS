@@ -8,7 +8,7 @@ int main(int argc,char **argv)
     Dataset train(argv[1]);
     Dataset test(argv[2]);
 
-    Knn myKnn(&train,15);
+    Knn myKnn(&train,5);
 
     double total_class_error=0.0;
     double total_test_error = 0.0;

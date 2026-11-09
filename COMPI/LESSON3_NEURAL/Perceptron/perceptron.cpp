@@ -91,10 +91,12 @@ void  Perceptron::train()
         for(i=0;i<trainSet->count();i++)
         {
 
-            //pairno to train protypo stin thesi i
-            Data pattern=trainSet->getXPoint(i);
+
+               //pairno to train protypo stin thesi i
+       int pos = rand() % trainSet->count();
+            Data pattern=trainSet->getXPoint(pos);
             //pairno tin pragmatiki exo to y(x) apo to pdf
-            double yx=trainSet->getYPoint(i);
+            double yx=trainSet->getYPoint(pos);
 
             //to kanoniko protypo einai to x=(x0,x1,....,x(n-1))
             //ta bari omos einai w=(w0,w1,.....,w(n)) giati stin
@@ -117,6 +119,7 @@ void  Perceptron::train()
 
         //ypologizo tin diafora palaion kai neon varon
         double dist=distance(oldWeights,weight);
+        printf("epoch  =%d Now Dist = %lf \n",e,dist);
         if(dist<1e-5) break;
     }
 }

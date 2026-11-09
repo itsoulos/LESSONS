@@ -45,8 +45,8 @@ void GradientWithLS::goldenSearch(double &a,double &b)
 void    GradientWithLS::updateRate()
 {
     double lambda = rate;
-    double a = lambda * 0.9;
-    double b = lambda * 1.1;
+    double a = lambda * 0.5;
+    double b = lambda * 1.5;
     goldenSearch(a,b);
     rate = a;
 }

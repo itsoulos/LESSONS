@@ -8,6 +8,7 @@ typedef vector<double> Data;
 
 double randomDouble()
 {
+    //drand48();
     return rand() *1.0/RAND_MAX;
 }
 

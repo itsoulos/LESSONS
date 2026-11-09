@@ -36,11 +36,13 @@ void    GradientDescent::updatePoint()
 void    GradientDescent::Solve()
 {
     int k=0;
+    const int kmax = 5000;
     while(true)
     {
         updateRate();
         updatePoint();
         k=k+1;
+       // if(k>=kmax) break;
         if(myProblem->grms(xpoint)<1e-3) break;
         printf("Iteration=%4d Value=%20.10lg\n",k,ypoint);
     }

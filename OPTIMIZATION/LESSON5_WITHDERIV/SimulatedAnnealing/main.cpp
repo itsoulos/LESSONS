@@ -11,11 +11,11 @@ int main()
 
     for(int t=1;t<=times;t++)
     {
-        srand(t);
+        srand(t*100+1);
         RastriginProblem p;
         SimanMethod method(&p);
         method.Solve();
-        GradientDescent gd(&p);
+        GradientWithLS gd(&p);
         Data xx = p.getBestx();
         double yy = p.getBesty();
         gd.setPoint(xx,yy);

@@ -10,7 +10,7 @@ SimanMethod::SimanMethod(Problem *p)
     xpoint = myProblem->getSample();
     ypoint = myProblem->funmin(xpoint);
     xbest = xpoint;
-    ybest = ybest;
+    ybest = ypoint;
 }
 
 void    SimanMethod::setT0(double t)

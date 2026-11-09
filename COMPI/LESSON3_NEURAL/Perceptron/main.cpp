@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     Perceptron p;
     srand(2);
     p.setEmax(100);
-    p.setN(0.01);
+    p.setN(0.1);
     p.setTrainSet(&trainSet);
     p.setTestSet(&testSet);
     p.train();

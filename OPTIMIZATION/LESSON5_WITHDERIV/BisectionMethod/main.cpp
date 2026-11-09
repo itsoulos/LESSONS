@@ -35,7 +35,7 @@ void bisectionMethod(double &a,double &b)
 int main()
 {
     double a= 1;
-    double b= 10;
+    double b= 1000;
     bisectionMethod(a,b);
     return 0;
 }

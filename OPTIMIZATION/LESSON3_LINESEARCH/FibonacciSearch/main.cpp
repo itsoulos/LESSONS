@@ -39,8 +39,8 @@ void fibSearch(double &a,double &b)
 }
 int main()
 {
-    double a = 0;
-    double b = 10;
+    double a = 1;
+    double b = 6;
     fibSearch(a,b);
     printf("On termination range=[%10.5lg,%10.5lg]\n",a,b);
     return 0;
