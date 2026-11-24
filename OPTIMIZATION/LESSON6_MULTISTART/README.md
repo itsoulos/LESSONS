@@ -6,4 +6,6 @@
 2. [Η μέθοδος Pure Random Search](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON6_MULTISTART/PureRandomSearch.zip)  
 3. [Η Μέθοδος MULTISTART](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON6_MULTISTART/MultistartMethod.zip) 
 4. [Εργαστηριακή άσκηση σε  MULTISTART](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON6_MULTISTART/ergasia_multistart_lab.pdf)
-5. [Άσκηση προς παράδοση](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON6_MULTISTART/ergasia_multistart.pdf)
+5. [Άσκηση προς παράδοση](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON6_MULTISTART/ergasia_multistart.pdf) 
+6. [Η Μέθοδος MLSL από την άσκηση](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON6_MULTISTART/Mlsl.zip) 
+7. [Η νέα μέθοδος Multistart από την άσκηση](https://github.com/itsoulos/LESSONS/blob/master/OPTIMIZATION/LESSON6_MULTISTART/NewMultistart.zip) 
