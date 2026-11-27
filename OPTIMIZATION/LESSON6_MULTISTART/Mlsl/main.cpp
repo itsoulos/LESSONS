@@ -770,17 +770,18 @@ bool    Mlsl::Terminated()
     {
         int v = wcount-oldminima;
         x1+=v;
-        x2+=(v*v);
-        double variance = fabs((x1/iter)-(x2/iter)*(x2/iter));
-        variance = sqrt(variance);
-        if(oldminima!=wcount)
+        x2+=static_cast<double>(v)*v;
+        double n = iter - 1.0;
+        double mean = x1 / n;
+        double variance = sqrt(fmax(0.0, x2 / n - mean * mean));
+        if(oldminima!=wcount || (stopat==0.0 && variance>0.0))
         {
             stopat = variance/2.0;
             oldminima = wcount;
         }
         printf("DOUBLEBOX. ITERS: %4d VARIANCE: %10.5lg STOPAT: %10.5lg\n",
                iter,variance,stopat);
-        return variance<=stopat;
+        return n > 1 && stopat > 0.0 && variance<=stopat;
     }
     return false;
 }
